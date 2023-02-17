@@ -1,0 +1,25 @@
+{% extends 'admin/base_site.html' %}
+{% load static %}
+{% load admin_tools %}
+
+{% block title %}{{ settings.PROJECT_ADMIN_TITLE }}{% endblock %}
+
+{% block branding %}
+    <h1 id="site-name"><a href="{% url 'admin:index' %}">{{ settings.PROJECT_ADMIN_TITLE }}</a></h1>
+{% endblock %}
+
+{% block blockbots %}
+    {{ block.super }}
+    <link rel="stylesheet" type="text/css" href="{% static 'admin/select2.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'admin/select2-adminlte.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'django-admin-autocomplete-filter/css/autocomplete-fix.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'admin/css/autocomplete.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'admin/admin.css' %}">
+    {% pygments_highlight_style %}
+
+    <script src="{% static 'admin/jquery.min.js' %}"></script>
+    <script src="{% static 'admin/select2.full.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'django_select2/django_select2.js' %}"></script>
+    <script src="{% static 'admin/admin.js' %}"></script>
+{% endblock %}
+

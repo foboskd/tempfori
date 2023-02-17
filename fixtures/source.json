@@ -1,0 +1,18 @@
+[
+    {
+        "model": "d11.source",
+        "pk": 1,
+        "fields": {
+            "label": "ВАК :: ОБЪЯВЛЕНИЯ О ЗАЩИТАХ ВАК",
+            "collector_class": "CollectorVakAdvert"
+        }
+    },
+    {
+        "model": "d11.source",
+        "pk": 2,
+        "fields": {
+            "label": "ВАК :: САМОСТОЯТЕЛЬНОЕ ПРИСУЖДЕНИЕ СТЕПЕНЕЙ",
+            "collector_class": "CollectorVakIndependent"
+        }
+    }
+]

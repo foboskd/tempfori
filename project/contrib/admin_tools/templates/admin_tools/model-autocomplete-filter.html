@@ -1,0 +1,14 @@
+{% load i18n %}
+<h3>{% blocktrans with filter_title=title %} By {{ filter_title }} {% endblocktrans %}</h3>
+<div class="changelist-select-container">
+    {{ spec.field }}
+</div>
+<script>
+    $('#{{ spec.field.id_for_label }}').on('change', function () {
+        if (!$(this).val()) {
+            document.location.href = '{{ choices.0.query_string|safe }}';
+            return;
+        }
+        document.location.href = '{{ choices.1.query_string|safe }}'.replace('__' + '{{ spec.field.name }}' + '__', $(this).val());
+    });
+</script>

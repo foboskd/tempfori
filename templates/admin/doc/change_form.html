@@ -1,0 +1,17 @@
+{% extends "admin/change_form.html" %}
+
+
+{% block field_sets %}
+
+    {% if original.full_name_doubles %}
+        <ul class="messagelist">
+            <li class="warning">
+                <a href="/admin/d11/doc/?q={{ original.full_name_doubles.full_name }}&full_name_doubles=1">
+                    Повторяющиеся ФИО : {{ original.full_name_doubles.docs_count }}
+                </a>
+            </li>
+        </ul>
+    {% endif %}
+
+    {{ block.super }}
+{% endblock %}

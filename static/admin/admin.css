@@ -1,0 +1,26 @@
+#changelist-filter {
+  padding: 20px 2px;
+}
+#changelist-filter .changelist-select-container {
+  margin: 0 6px !important;
+}
+#changelist-filter h3 {
+  border-top: 1px solid #121212;
+  padding-top: 10px;
+}
+#changelist-filter h3:first-letter {
+  text-transform: uppercase;
+}
+#changelist-filter select {
+  margin: -3px !important;
+}
+.inline-group .tabular tr.has_original td {
+  padding-top: 6px;
+}
+.inline-group .tabular tr.has_original td.original p {
+  display: none;
+}
+#fields_values-group .form-row-warning {
+  background-color: rgba(194, 149, 17, 0.38);
+}
+/*# sourceMappingURL=admin.css.map */

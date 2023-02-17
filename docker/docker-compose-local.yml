@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  d11-app-api: &d11-app-api
+    image: d11/app
+    build:
+      context: ../
+      dockerfile: ./docker/Dockerfile
+      target: app
+    restart: always
+    volumes:
+      - ../../www/storage:/www/storage
+      - ../:/app
+    command: './docker/entry-point/entry-point.sh django'
+    ports:
+      - 10032:8000
+    environment:
+      - DATABASE_URL=postgres://postgres:123@host.docker.internal/d11
+      - REDIS_HOST=host.docker.internal
+      - REDIS_PORT=63812
+
+  d11-app-celery:
+    <<: *d11-app-api
+    depends_on:
+      - d11-app-api
+    ports: [ ]
+    command: './docker/entry-point/entry-point.sh django-celery'
+
+  d11-app-celery-beat:
+    <<: *d11-app-api
+    depends_on:
+      - d11-app-api
+    ports: [ ]
+    command: './docker/entry-point/entry-point.sh django-celery-beat'

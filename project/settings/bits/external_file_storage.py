@@ -1,0 +1,25 @@
+import os
+
+ALEPH_CARDS_EXTERNAL_STORAGE_NETWORK_NAME = (
+        os.environ.get('ALEPH_CARDS_EXTERNAL_STORAGE_NETWORK_NAME')
+        or 'srv-rgbstore-01.catalog.rsl'
+)
+ALEPH_CARDS_EXTERNAL_STORAGE_NETWORK_PORT = (
+        os.environ.get('ALEPH_CARDS_EXTERNAL_STORAGE_NETWORK_PORT')
+        or 139
+)
+
+ALEPH_CARDS_EXTERNAL_STORAGE_USER_NAME = (
+        os.environ.get('ALEPH_CARDS_EXTERNAL_STORAGE_USER_NAME')
+        or 'd11_bot'
+)
+
+ALEPH_CARDS_EXTERNAL_STORAGE_USER_PASSWORD = (
+        os.environ.get('ALEPH_CARDS_EXTERNAL_STORAGE_USER_PASSWORD')
+        or 'Zz123456'
+)
+
+ALEPH_CARDS_EXTERNAL_STORAGE_DIRNAME = (
+        os.environ.get('ALEPH_CARDS_EXTERNAL_STORAGE_DIRNAME')
+        or 'RSL_Disser_D11'
+)

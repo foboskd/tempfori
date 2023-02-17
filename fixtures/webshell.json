@@ -1,0 +1,10 @@
+[
+{
+    "model": "webshell.script",
+    "pk": 1,
+    "fields": {
+        "name": "IMPORT Example",
+        "source": "from django.core.management import call_command\r\n\r\n#call_command('collect_vak', '2021-08-01', '2021-08-20', source='1', is_async=True)\r\n\r\n\r\n\r\n#call_command('collect_vak', '2021-01-01', '2021-08-28', source='1', is_async=True)\r\n#call_command('collect_vak', '2021-01-01', '2021-08-28', source='2', is_async=True)"
+    }
+}
+]

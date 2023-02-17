@@ -1,0 +1,805 @@
+[
+{
+    "model": "django_celery_beat.intervalschedule",
+    "pk": 1,
+    "fields": {
+        "every": 10,
+        "period": "minutes"
+    }
+},
+{
+    "model": "django_celery_beat.intervalschedule",
+    "pk": 2,
+    "fields": {
+        "every": 15,
+        "period": "minutes"
+    }
+},
+{
+    "model": "django_celery_beat.intervalschedule",
+    "pk": 3,
+    "fields": {
+        "every": 30,
+        "period": "minutes"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 1,
+    "fields": {
+        "minute": "0",
+        "hour": "0",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 2,
+    "fields": {
+        "minute": "30",
+        "hour": "0",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 3,
+    "fields": {
+        "minute": "0",
+        "hour": "1",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 4,
+    "fields": {
+        "minute": "30",
+        "hour": "1",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 5,
+    "fields": {
+        "minute": "0",
+        "hour": "2",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 6,
+    "fields": {
+        "minute": "30",
+        "hour": "2",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 7,
+    "fields": {
+        "minute": "0",
+        "hour": "3",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 8,
+    "fields": {
+        "minute": "30",
+        "hour": "3",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 9,
+    "fields": {
+        "minute": "0",
+        "hour": "4",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 10,
+    "fields": {
+        "minute": "30",
+        "hour": "4",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 11,
+    "fields": {
+        "minute": "0",
+        "hour": "5",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 12,
+    "fields": {
+        "minute": "30",
+        "hour": "5",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 13,
+    "fields": {
+        "minute": "0",
+        "hour": "6",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 14,
+    "fields": {
+        "minute": "30",
+        "hour": "6",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 15,
+    "fields": {
+        "minute": "0",
+        "hour": "7",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 16,
+    "fields": {
+        "minute": "30",
+        "hour": "7",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 17,
+    "fields": {
+        "minute": "0",
+        "hour": "8",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 18,
+    "fields": {
+        "minute": "30",
+        "hour": "8",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 19,
+    "fields": {
+        "minute": "0",
+        "hour": "9",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 20,
+    "fields": {
+        "minute": "30",
+        "hour": "9",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 21,
+    "fields": {
+        "minute": "0",
+        "hour": "10",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 22,
+    "fields": {
+        "minute": "30",
+        "hour": "10",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 23,
+    "fields": {
+        "minute": "0",
+        "hour": "11",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 24,
+    "fields": {
+        "minute": "30",
+        "hour": "11",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 25,
+    "fields": {
+        "minute": "0",
+        "hour": "12",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 26,
+    "fields": {
+        "minute": "30",
+        "hour": "12",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 27,
+    "fields": {
+        "minute": "0",
+        "hour": "13",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 28,
+    "fields": {
+        "minute": "30",
+        "hour": "13",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 29,
+    "fields": {
+        "minute": "0",
+        "hour": "14",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 30,
+    "fields": {
+        "minute": "30",
+        "hour": "14",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 31,
+    "fields": {
+        "minute": "0",
+        "hour": "15",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 32,
+    "fields": {
+        "minute": "30",
+        "hour": "15",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 33,
+    "fields": {
+        "minute": "0",
+        "hour": "16",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 34,
+    "fields": {
+        "minute": "30",
+        "hour": "16",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 35,
+    "fields": {
+        "minute": "0",
+        "hour": "17",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 36,
+    "fields": {
+        "minute": "30",
+        "hour": "17",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 37,
+    "fields": {
+        "minute": "0",
+        "hour": "18",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 38,
+    "fields": {
+        "minute": "30",
+        "hour": "18",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 39,
+    "fields": {
+        "minute": "0",
+        "hour": "19",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 40,
+    "fields": {
+        "minute": "30",
+        "hour": "19",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 41,
+    "fields": {
+        "minute": "0",
+        "hour": "20",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 42,
+    "fields": {
+        "minute": "30",
+        "hour": "20",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 43,
+    "fields": {
+        "minute": "0",
+        "hour": "21",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 44,
+    "fields": {
+        "minute": "30",
+        "hour": "21",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 45,
+    "fields": {
+        "minute": "0",
+        "hour": "22",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 46,
+    "fields": {
+        "minute": "30",
+        "hour": "22",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 47,
+    "fields": {
+        "minute": "0",
+        "hour": "23",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 48,
+    "fields": {
+        "minute": "30",
+        "hour": "23",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "Europe/Moscow"
+    }
+},
+{
+    "model": "django_celery_beat.periodictasks",
+    "pk": 1,
+    "fields": {
+        "last_update": "2022-03-04T20:25:41.740Z"
+    }
+},
+{
+    "model": "django_celery_beat.periodictask",
+    "pk": 1,
+    "fields": {
+        "name": "celery.backend_cleanup",
+        "task": "celery.backend_cleanup",
+        "interval": null,
+        "crontab": 1,
+        "solar": null,
+        "clocked": null,
+        "args": "[]",
+        "kwargs": "{}",
+        "queue": null,
+        "exchange": null,
+        "routing_key": null,
+        "headers": "{}",
+        "priority": null,
+        "expires": null,
+        "expire_seconds": 43200,
+        "one_off": false,
+        "start_time": null,
+        "enabled": true,
+        "last_run_at": null,
+        "total_run_count": 0,
+        "date_changed": "2022-03-10T00:00:00Z",
+        "description": ""
+    }
+},
+{
+    "model": "django_celery_beat.periodictask",
+    "pk": 2,
+    "fields": {
+        "name": "Экспорт новых авторефератов в Алеф",
+        "task": "d11.tasks.d11_export_to_aleph_new_docs_synopsis",
+        "interval": null,
+        "crontab": 41,
+        "solar": null,
+        "clocked": null,
+        "args": "[]",
+        "kwargs": "{}",
+        "queue": null,
+        "exchange": null,
+        "routing_key": null,
+        "headers": "{}",
+        "priority": null,
+        "expires": null,
+        "expire_seconds": null,
+        "one_off": false,
+        "start_time": null,
+        "enabled": true,
+        "last_run_at": null,
+        "total_run_count": 0,
+        "date_changed": "2022-03-10T00:00:00Z",
+        "description": ""
+    }
+},
+{
+    "model": "django_celery_beat.periodictask",
+    "pk": 3,
+    "fields": {
+        "name": "Экспорт новых диссертаций в Алеф",
+        "task": "d11.tasks.d11_export_to_aleph_new_docs_dissertation",
+        "interval": null,
+        "crontab": 1,
+        "solar": null,
+        "clocked": null,
+        "args": "[]",
+        "kwargs": "{}",
+        "queue": null,
+        "exchange": null,
+        "routing_key": null,
+        "headers": "{}",
+        "priority": null,
+        "expires": null,
+        "expire_seconds": null,
+        "one_off": false,
+        "start_time": null,
+        "enabled": true,
+        "last_run_at": null,
+        "total_run_count": 0,
+        "date_changed": "2022-03-10T00:00:00Z",
+        "description": ""
+    }
+},
+{
+    "model": "django_celery_beat.periodictask",
+    "pk": 4,
+    "fields": {
+        "name": "Экспорт файлов карточек Алефа",
+        "task": "d11.tasks.d11_export_aleph_cards_files",
+        "interval": null,
+        "crontab": 5,
+        "solar": null,
+        "clocked": null,
+        "args": "[]",
+        "kwargs": "{}",
+        "queue": null,
+        "exchange": null,
+        "routing_key": null,
+        "headers": "{}",
+        "priority": null,
+        "expires": null,
+        "expire_seconds": null,
+        "one_off": false,
+        "start_time": null,
+        "enabled": true,
+        "last_run_at": null,
+        "total_run_count": 0,
+        "date_changed": "2022-03-10T00:00:00Z",
+        "description": ""
+    }
+},
+{
+    "model": "django_celery_beat.periodictask",
+    "pk": 5,
+    "fields": {
+        "name": "ВАК – Сбор данных",
+        "task": "d11.tasks.d11_collect_vak_all",
+        "interval": null,
+        "crontab": 11,
+        "solar": null,
+        "clocked": null,
+        "args": "[]",
+        "kwargs": "{}",
+        "queue": null,
+        "exchange": null,
+        "routing_key": null,
+        "headers": "{}",
+        "priority": null,
+        "expires": null,
+        "expire_seconds": null,
+        "one_off": false,
+        "start_time": null,
+        "enabled": true,
+        "last_run_at": null,
+        "total_run_count": 0,
+        "date_changed": "2022-03-10T00:00:00Z",
+        "description": ""
+    }
+},
+{
+    "model": "django_celery_beat.periodictask",
+    "pk": 6,
+    "fields": {
+        "name": "Отпрака уведомлений",
+        "task": "main.tasks.docs_emails_send",
+        "interval": null,
+        "crontab": 15,
+        "solar": null,
+        "clocked": null,
+        "args": "[]",
+        "kwargs": "{}",
+        "queue": null,
+        "exchange": null,
+        "routing_key": null,
+        "headers": "{}",
+        "priority": null,
+        "expires": null,
+        "expire_seconds": null,
+        "one_off": false,
+        "start_time": null,
+        "enabled": true,
+        "last_run_at": null,
+        "total_run_count": 0,
+        "date_changed": "2022-03-10T00:00:00Z",
+        "description": ""
+    }
+},
+{
+    "model": "django_celery_beat.periodictask",
+    "pk": 7,
+    "fields": {
+        "name": "Обновление мат. вьюх",
+        "task": "d11.tasks.d11_mviews_rebuild",
+        "interval": 1,
+        "crontab": null,
+        "solar": null,
+        "clocked": null,
+        "args": "[]",
+        "kwargs": "{}",
+        "queue": null,
+        "exchange": null,
+        "routing_key": null,
+        "headers": "{}",
+        "priority": null,
+        "expires": null,
+        "expire_seconds": null,
+        "one_off": false,
+        "start_time": null,
+        "enabled": true,
+        "last_run_at": null,
+        "total_run_count": 0,
+        "date_changed": "2022-03-04T20:25:41.760Z",
+        "description": ""
+    }
+}
+]

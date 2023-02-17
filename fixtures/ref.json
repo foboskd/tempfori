@@ -1,0 +1,227 @@
+[
+{
+    "model": "d11.ref",
+    "pk": 1,
+    "fields": {
+        "type": "kind",
+        "from_what": "Кандидатская",
+        "to_what": "кандидата"
+    }
+},
+{
+    "model": "d11.ref",
+    "pk": 2,
+    "fields": {
+        "type": "kind",
+        "from_what": "Докторская",
+        "to_what": "доктора"
+    }
+},
+{
+    "model": "d11.ref",
+    "pk": 3,
+    "fields": {
+        "type": "industry",
+        "from_what": "Архитектура",
+        "to_what": "архитектуры"
+    }
+},
+{
+    "model": "d11.ref",
+    "pk": 4,
+    "fields": {
+        "type": "industry",
+        "from_what": "Биологические науки",
+        "to_what": "биологических наук"
+    }
+},
+{
+    "model": "d11.ref",
+    "pk": 5,
+    "fields": {
+        "type": "industry",
+        "from_what": "Ветеринарные науки",
+        "to_what": "ветеринарных наук"
+    }
+},
+{
+    "model": "d11.ref",
+    "pk": 6,
+    "fields": {
+        "type": "industry",
+        "from_what": "Географические науки",
+        "to_what": "географических наук"
+    }
+},
+{
+    "model": "d11.ref",
+    "pk": 7,
+    "fields": {
+        "type": "industry",
+        "from_what": "Геолого-минералогические науки",
+        "to_what": "геолого-минералогических наук"
+    }
+},
+{
+    "model": "d11.ref",
+    "pk": 8,
+    "fields": {
+        "type": "industry",
+        "from_what": "Искусствоведение",
+        "to_what": "искусствоведения"
+    }
+},
+{
+    "model": "d11.ref",
+    "pk": 9,
+    "fields": {
+        "type": "industry",
+        "from_what": "Исторические науки",
+        "to_what": "исторических наук"
+    }
+},
+{
+    "model": "d11.ref",
+    "pk": 10,
+    "fields": {
+        "type": "industry",
+        "from_what": "Культурология",
+        "to_what": "культурологии"
+    }
+},
+{
+    "model": "d11.ref",
+    "pk": 11,
+    "fields": {
+        "type": "industry",
+        "from_what": "Медицинские науки",
+        "to_what": "медицинских наук"
+    }
+},
+{
+    "model": "d11.ref",
+    "pk": 12,
+    "fields": {
+        "type": "industry",
+        "from_what": "Педагогические науки",
+        "to_what": "педагогических наук"
+    }
+},
+{
+    "model": "d11.ref",
+    "pk": 13,
+    "fields": {
+        "type": "industry",
+        "from_what": "Политические науки",
+        "to_what": "политических наук"
+    }
+},
+{
+    "model": "d11.ref",
+    "pk": 14,
+    "fields": {
+        "type": "industry",
+        "from_what": "Психологические науки",
+        "to_what": "психологических наук"
+    }
+},
+{
+    "model": "d11.ref",
+    "pk": 15,
+    "fields": {
+        "type": "industry",
+        "from_what": "Сельскохозяйственные науки",
+        "to_what": "сельскохозяйственных наук"
+    }
+},
+{
+    "model": "d11.ref",
+    "pk": 17,
+    "fields": {
+        "type": "industry",
+        "from_what": "Социологические науки",
+        "to_what": "социологических наук"
+    }
+},
+{
+    "model": "d11.ref",
+    "pk": 18,
+    "fields": {
+        "type": "industry",
+        "from_what": "Теология",
+        "to_what": "теологии"
+    }
+},
+{
+    "model": "d11.ref",
+    "pk": 19,
+    "fields": {
+        "type": "industry",
+        "from_what": "Технические науки",
+        "to_what": "технических наук"
+    }
+},
+{
+    "model": "d11.ref",
+    "pk": 20,
+    "fields": {
+        "type": "industry",
+        "from_what": "Фармацевтические науки",
+        "to_what": "фармацевтических наук"
+    }
+},
+{
+    "model": "d11.ref",
+    "pk": 21,
+    "fields": {
+        "type": "industry",
+        "from_what": "Физико-математические науки",
+        "to_what": "физико-математических наук"
+    }
+},
+{
+    "model": "d11.ref",
+    "pk": 22,
+    "fields": {
+        "type": "industry",
+        "from_what": "Филологические науки",
+        "to_what": "филологических наук"
+    }
+},
+{
+    "model": "d11.ref",
+    "pk": 23,
+    "fields": {
+        "type": "industry",
+        "from_what": "Философские науки",
+        "to_what": "философских наук"
+    }
+},
+{
+    "model": "d11.ref",
+    "pk": 24,
+    "fields": {
+        "type": "industry",
+        "from_what": "Химические науки",
+        "to_what": "химических наук"
+    }
+},
+{
+    "model": "d11.ref",
+    "pk": 25,
+    "fields": {
+        "type": "industry",
+        "from_what": "Экономические науки",
+        "to_what": "экономических наук"
+    }
+},
+{
+    "model": "d11.ref",
+    "pk": 26,
+    "fields": {
+        "type": "industry",
+        "from_what": "Юридические науки",
+        "to_what": "юридических наук"
+    }
+}
+]

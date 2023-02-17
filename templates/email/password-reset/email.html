@@ -1,0 +1,208 @@
+{% extends 'email/password-reset/base/structure.html' %}
+{% load static %}
+
+{% block email_content %}
+    <!--  Header  -->
+    <div style="background-color:transparent;">
+        <div style="Margin: 0 auto;min-width: 320px;max-width: 680px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #FFFFFF;"
+             class="block-grid ">
+            <div style="border-collapse: collapse;display: table;width: 100%;background-color:#FFFFFF;">
+                <!--[if (mso)|(IE)]>
+                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                        <td style="background-color:transparent;" align="center">
+                            <table cellpadding="0" cellspacing="0" border="0" style="width: 680px;">
+                                <tr class="layout-full-width" style="background-color:#FFFFFF;"><![endif]-->
+
+                <!--[if (mso)|(IE)]>
+                <td align="center" width="680"
+                    style=" width:680px; padding-right: 0px; padding-left: 0px; padding-top:5px; padding-bottom:5px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;"
+                    valign="top"><![endif]-->
+                <div class="col num12"
+                     style="min-width: 320px;max-width: 680px;display: table-cell;vertical-align: top;">
+                    <div style="background-color: transparent; width: 100% !important;">
+                        <!--[if (!mso)&(!IE)]><!-->
+                        <div style="border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;">
+                            <!--<![endif]-->
+                            <div class="">
+                                <!--[if mso]>
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td style="padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px;">
+                                <![endif]-->
+                                <div style="line-height:150%;font-family:'Ubuntu', Tahoma, Verdana, Segoe, sans-serif;color:#122966; padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px;">
+                                    <div style="font-size:12px;line-height:18px;font-family:Ubuntu, Tahoma, Verdana, Segoe, sans-serif;color:#122966;text-align:left;">
+                                        <p style="margin: 0;font-size: 14px;line-height: 21px;text-align: center">
+                                            <strong><span
+                                                    style="font-size: 26px; line-height: 39px;">{{ header_title }}</span></strong>
+                                        </p></div>
+                                </div>
+                                <!--[if mso]></td></tr></table><![endif]-->
+                            </div>
+                            <div align="center" class="img-container center  autowidth  "
+                                 style="padding-right: 0px;  padding-left: 0px;">
+                                <!--[if mso]>
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                    <tr style="line-height:0px;line-height:0px;">
+                                        <td style="padding-right: 0px; padding-left: 0px;" align="center"><![endif]-->
+                                <img class="center  autowidth " align="center" border="0"
+                                     src="{{ protocol }}://{{ domain }}{% static "img/email/reset.png" %}" alt="Image"
+                                     title="Image"
+                                     style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: block !important;border: 0;height: auto;float: none;width: 100%;max-width: 104px"
+                                     width="104">
+                                <!--[if mso]></td></tr></table><![endif]-->
+                            </div>
+                            <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
+                    </div>
+                </div>
+                <!--[if (mso)|(IE)]></td></tr></table></td></tr></table><![endif]-->
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Content -->
+
+    <div style="background-color:transparent;">
+        <div style="Margin: 0 auto;min-width: 320px;max-width: 680px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #FFFFFF;"
+             class="block-grid ">
+            <div style="border-collapse: collapse;display: table;width: 100%;background-color:#FFFFFF;">
+                <!--[if (mso)|(IE)]>
+                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                        <td style="background-color:transparent;" align="center">
+                            <table cellpadding="0" cellspacing="0" border="0" style="width: 680px;">
+                                <tr class="layout-full-width" style="background-color:#FFFFFF;"><![endif]-->
+
+                <!--[if (mso)|(IE)]>
+                <td align="center" width="680"
+                    style=" width:680px; padding-right: 0px; padding-left: 0px; padding-top:0px; padding-bottom:20px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;"
+                    valign="top"><![endif]-->
+                <div class="col num12"
+                     style="min-width: 320px;max-width: 680px;display: table-cell;vertical-align: top;">
+                    <div style="background-color: transparent; width: 100% !important;">
+                        <!--[if (!mso)&(!IE)]><!-->
+                        <div style="border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent; padding-top:0px; padding-bottom:20px; padding-right: 0px; padding-left: 0px;">
+                            <!--<![endif]-->
+
+
+                            <div class="">
+                                <!--[if mso]>
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td style="padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px;">
+                                <![endif]-->
+                                <div style="line-height:120%;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;color:#122966; padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px;">
+                                    <div style="font-size:12px;line-height:14px;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;color:#122966;text-align:left;">
+                                        <p style="margin: 0;font-size: 14px;line-height: 17px;text-align: center">
+                                            <strong><span
+                                                    style="font-size: 30px; line-height: 36px;">Забыли ваш пароль?</span></strong>
+                                        </p></div>
+                                </div>
+                                <!--[if mso]></td></tr></table><![endif]-->
+                            </div>
+
+
+                            <div class="">
+                                <!--[if mso]>
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td style="padding-right: 50px; padding-left: 50px; padding-top: 20px; padding-bottom: 10px;">
+                                <![endif]-->
+                                <div style="line-height:180%;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;color:#122966; padding-right: 50px; padding-left: 50px; padding-top: 20px; padding-bottom: 10px;">
+                                    <div style="font-size:12px;line-height:22px;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;color:#122966;text-align:left;">
+                                        <p style="margin: 0;font-size: 14px;line-height: 25px;text-align: center">
+                                            Здравствуйте, {{ user.get_email_title }}</p>
+                                        <p style="margin:0;font-size:14px;line-height:25px;text-align:center">Мы
+                                            получили запрос на восстановление пароля от учётной записи на сайте <a
+                                                    style="color:#122966;text-decoration: underline;"
+                                                    href="{{ site_name }}" target="_blank"
+                                                    rel="noopener">{{ site_name }}</a>. Нажмите здесь, чтобы изменить
+                                            свой пароль.</p></div>
+                                </div>
+                                <!--[if mso]></td></tr></table><![endif]-->
+                            </div>
+
+
+                            <div align="center" class="button-container center "
+                                 style="padding-right: 10px; padding-left: 10px; padding-top:10px; padding-bottom:10px;">
+                                <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing: 0; border-collapse: collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;"><tr><td style="padding-right: 10px; padding-left: 10px; padding-top:10px; padding-bottom:10px;" align="center"><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{ protocol }}://{{ domain }}{% url 'password_reset_confirm' uidb64=uid token=token %}" style="height:46pt; v-text-anchor:middle; width:202pt;" arcsize="0%" strokecolor="#4e78f6" fillcolor="#4e78f6"><w:anchorlock/><v:textbox inset="0,0,0,0"><center style="color:#ffffff; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:16px;"><![endif]-->
+                                <a href="{{ protocol }}://
+                                        {{ domain }}{% url 'password_reset_confirm' uidb64=uid token=token %}"
+                                   target="_blank"
+                                   style="display: block;text-decoration: none;-webkit-text-size-adjust: none;text-align: center;color: #ffffff; background-color: #4e78f6; border-radius: 0px; -webkit-border-radius: 0px; -moz-border-radius: 0px; max-width: 650px; width: 40%; border-top: 0px solid transparent; border-right: 0px solid transparent; border-bottom: 0px solid transparent; border-left: 0px solid transparent; padding-top: 15px; padding-right: 15px; padding-bottom: 15px; padding-left: 15px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;mso-border-alt: none">
+                                    <span style="font-size:16px;line-height:32px;">Изменить пароль</span>
+                                </a>
+                                <!--[if mso]></center></v:textbox></v:roundrect></td></tr></table><![endif]-->
+                            </div>
+
+
+                            <div class="">
+                                <!--[if mso]>
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td style="padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px;">
+                                <![endif]-->
+                                <div style="line-height:120%;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;color:#97a1bc; padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px;">
+                                    <div style="font-size:12px;line-height:14px;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;color:#97a1bc;text-align:left;">
+                                        <p style="margin: 0;font-size: 14px;line-height: 17px;text-align: center">
+                                            <span style="line-height: 13px; font-size: 11px;">Кнопка не работает? Перейдите по ссылке в браузере:</span><br>
+                                            <span style="line-height: 13px; font-size: 11px;"><a
+                                                    style="color:#97a1bc;text-decoration: underline;"
+                                                    href="{{ protocol }}://
+                                                            {{ domain }}{% url 'password_reset_confirm' uidb64=uid token=token %}"
+                                                    target="_blank" rel="noopener" data-mce-selected="1">{{ protocol }}://{{ domain }}{% url 'password_reset_confirm' uidb64=uid token=token %}﻿</a></span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <!--[if mso]></td></tr></table><![endif]-->
+                            </div>
+
+
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%" class="divider "
+                                   style="border-collapse: collapse;table-layout: fixed;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;vertical-align: top;min-width: 100%;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%">
+                                <tbody>
+                                <tr style="vertical-align: top">
+                                    <td class="divider_inner"
+                                        style="word-break: break-word;border-collapse: collapse !important;vertical-align: top;padding-right: 10px;padding-left: 10px;padding-top: 10px;padding-bottom: 10px;min-width: 100%;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%">
+                                        <table class="divider_content" height="0px" align="center" border="0"
+                                               cellpadding="0" cellspacing="0" width="100%"
+                                               style="border-collapse: collapse;table-layout: fixed;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;vertical-align: top;border-top: 1px solid #D1D1D1;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%">
+                                            <tbody>
+                                            <tr style="vertical-align: top">
+                                                <td style="word-break: break-word;border-collapse: collapse !important;vertical-align: top;font-size: 0px;line-height: 0px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%">
+                                                    <span>&#160;</span>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+
+
+                            <div class="">
+                                <!--[if mso]>
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td style="padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px;">
+                                <![endif]-->
+                                <div style="line-height:120%;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;color:#97a1bc; padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px;">
+                                    <div style="font-size:12px;line-height:14px;color:#97a1bc;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;text-align:left;">
+                                        <p style="margin: 0;font-size: 14px;line-height: 17px;text-align: center">
+                                            <span style="line-height: 13px; font-size: 11px;">Вы не запрашивали это изменение?</span><br>
+                                            <span style="line-height: 13px; font-size: 11px;">Если вы не запрашивали новый пароль, проигнорируйте это сообщение.</span>
+                                        </p></div>
+                                </div>
+                                <!--[if mso]></td></tr></table><![endif]-->
+                            </div>
+
+                            <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
+                    </div>
+                </div>
+                <!--[if (mso)|(IE)]></td></tr></table></td></tr></table><![endif]-->
+            </div>
+        </div>
+    </div>
+{% endblock %}

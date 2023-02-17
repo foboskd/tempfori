@@ -1,0 +1,434 @@
+[
+{
+    "model": "d11.docfield",
+    "pk": 25,
+    "fields": {
+        "name": "publication_date",
+        "label": "Дата первичной публикации объявления",
+        "label_aliases": "[]",
+        "type": "date",
+        "is_auto": false,
+        "sorting": 100
+    }
+},
+{
+    "model": "d11.docfield",
+    "pk": 27,
+    "fields": {
+        "name": null,
+        "label": "Номер и дата редакции объявления",
+        "label_aliases": null,
+        "type": "str",
+        "is_auto": true,
+        "sorting": 30
+    }
+},
+{
+    "model": "d11.docfield",
+    "pk": 28,
+    "fields": {
+        "name": "vak_url",
+        "label": "Адрес объявления на сайте ВАК",
+        "label_aliases": "[]",
+        "type": "str",
+        "is_auto": true,
+        "sorting": 15
+    }
+},
+{
+    "model": "d11.docfield",
+    "pk": 29,
+    "fields": {
+        "name": "kind",
+        "label": "Тип диссертации",
+        "label_aliases": "[]",
+        "type": "str",
+        "is_auto": false,
+        "sorting": 100
+    }
+},
+{
+    "model": "d11.docfield",
+    "pk": 30,
+    "fields": {
+        "name": "full_name",
+        "label": "Фамилия, имя, отчество соискателя",
+        "label_aliases": "[]",
+        "type": "str",
+        "is_auto": false,
+        "sorting": 10
+    }
+},
+{
+    "model": "d11.docfield",
+    "pk": 31,
+    "fields": {
+        "name": "subject",
+        "label": "Тема диссертации",
+        "label_aliases": "[]",
+        "type": "str",
+        "is_auto": false,
+        "sorting": 100
+    }
+},
+{
+    "model": "d11.docfield",
+    "pk": 32,
+    "fields": {
+        "name": "specialty_code",
+        "label": "Шифр научной специальности",
+        "label_aliases": "[]",
+        "type": "str",
+        "is_auto": false,
+        "sorting": 100
+    }
+},
+{
+    "model": "d11.docfield",
+    "pk": 33,
+    "fields": {
+        "name": "industry",
+        "label": "Отрасль науки",
+        "label_aliases": "[]",
+        "type": "str",
+        "is_auto": false,
+        "sorting": 100
+    }
+},
+{
+    "model": "d11.docfield",
+    "pk": 34,
+    "fields": {
+        "name": "council_code",
+        "label": "Шифр диссертационного совета",
+        "label_aliases": "[]",
+        "type": "str",
+        "is_auto": false,
+        "sorting": 100
+    }
+},
+{
+    "model": "d11.docfield",
+    "pk": 35,
+    "fields": {
+        "name": "place_name",
+        "label": "Наименование организации место защиты",
+        "label_aliases": "[]",
+        "type": "str",
+        "is_auto": false,
+        "sorting": 100
+    }
+},
+{
+    "model": "d11.docfield",
+    "pk": 36,
+    "fields": {
+        "name": "autoref_file_url",
+        "label": "Автореферат",
+        "label_aliases": "[]",
+        "type": "str",
+        "is_auto": false,
+        "sorting": 100
+    }
+},
+{
+    "model": "d11.docfield",
+    "pk": 37,
+    "fields": {
+        "name": "external_source_url",
+        "label": "Интернет-адрес объявления на сайте организации",
+        "label_aliases": "[]",
+        "type": "str",
+        "is_auto": false,
+        "sorting": 100
+    }
+},
+{
+    "model": "d11.docfield",
+    "pk": 38,
+    "fields": {
+        "name": "disser_external_source_url",
+        "label": "Интернет-адрес текста диссертации на сайте организации",
+        "label_aliases": "[]",
+        "type": "str",
+        "is_auto": false,
+        "sorting": 100
+    }
+},
+{
+    "model": "d11.docfield",
+    "pk": 39,
+    "fields": {
+        "name": "autoref_external_source_url",
+        "label": "Интернет-адрес текста автореферата на сайте организации",
+        "label_aliases": "[]",
+        "type": "str",
+        "is_auto": false,
+        "sorting": 20
+    }
+},
+{
+    "model": "d11.docfield",
+    "pk": 40,
+    "fields": {
+        "name": "address",
+        "label": "Адрес организации",
+        "label_aliases": "[]",
+        "type": "str",
+        "is_auto": false,
+        "sorting": 100
+    }
+},
+{
+    "model": "d11.docfield",
+    "pk": 41,
+    "fields": {
+        "name": null,
+        "label": "Телефон организации",
+        "label_aliases": null,
+        "type": "str",
+        "is_auto": true,
+        "sorting": 100
+    }
+},
+{
+    "model": "d11.docfield",
+    "pk": 42,
+    "fields": {
+        "name": "defense_date",
+        "label": "Дата защиты диссертации",
+        "label_aliases": "[]",
+        "type": "date",
+        "is_auto": false,
+        "sorting": 40
+    }
+},
+{
+    "model": "d11.docfield",
+    "pk": 43,
+    "fields": {
+        "name": null,
+        "label": "Редакции",
+        "label_aliases": null,
+        "type": "str",
+        "is_auto": true,
+        "sorting": 100
+    }
+},
+{
+    "model": "d11.docfield",
+    "pk": 44,
+    "fields": {
+        "name": "id",
+        "label": "id",
+        "label_aliases": "[]",
+        "type": "int",
+        "is_auto": false,
+        "sorting": 100
+    }
+},
+{
+    "model": "d11.docfield",
+    "pk": 45,
+    "fields": {
+        "name": null,
+        "label": "Причина создания редакции №2",
+        "label_aliases": null,
+        "type": "str",
+        "is_auto": true,
+        "sorting": 10001
+    }
+},
+{
+    "model": "d11.docfield",
+    "pk": 46,
+    "fields": {
+        "name": "last_name",
+        "label": "Фамилия",
+        "label_aliases": "[]",
+        "type": "str",
+        "is_auto": false,
+        "sorting": 100
+    }
+},
+{
+    "model": "d11.docfield",
+    "pk": 47,
+    "fields": {
+        "name": "first_name",
+        "label": "Имя",
+        "label_aliases": "[]",
+        "type": "str",
+        "is_auto": false,
+        "sorting": 100
+    }
+},
+{
+    "model": "d11.docfield",
+    "pk": 48,
+    "fields": {
+        "name": "middle_name",
+        "label": "Отчество",
+        "label_aliases": "[]",
+        "type": "str",
+        "is_auto": false,
+        "sorting": 100
+    }
+},
+{
+    "model": "d11.docfield",
+    "pk": 49,
+    "fields": {
+        "name": null,
+        "label": "Причина создания редакции №4",
+        "label_aliases": null,
+        "type": "str",
+        "is_auto": true,
+        "sorting": 10003
+    }
+},
+{
+    "model": "d11.docfield",
+    "pk": 50,
+    "fields": {
+        "name": null,
+        "label": "Причина создания редакции №3",
+        "label_aliases": null,
+        "type": "str",
+        "is_auto": true,
+        "sorting": 10002
+    }
+},
+{
+    "model": "d11.docfield",
+    "pk": 51,
+    "fields": {
+        "name": null,
+        "label": "Причина создания редакции №5",
+        "label_aliases": null,
+        "type": "str",
+        "is_auto": true,
+        "sorting": 10004
+    }
+},
+{
+    "model": "d11.docfield",
+    "pk": 52,
+    "fields": {
+        "name": null,
+        "label": "Причина создания редакции №6",
+        "label_aliases": null,
+        "type": "str",
+        "is_auto": true,
+        "sorting": 10005
+    }
+},
+{
+    "model": "d11.docfield",
+    "pk": 53,
+    "fields": {
+        "name": null,
+        "label": "Причина создания редакции №7",
+        "label_aliases": null,
+        "type": "str",
+        "is_auto": true,
+        "sorting": 10006
+    }
+},
+{
+    "model": "d11.docfield",
+    "pk": 54,
+    "fields": {
+        "name": "autoref_file",
+        "label": "Файл автореферата",
+        "label_aliases": "[]",
+        "type": "file",
+        "is_auto": false,
+        "sorting": 60
+    }
+},
+{
+    "model": "d11.docfield",
+    "pk": 55,
+    "fields": {
+        "name": "disser_file",
+        "label": "Файл диссертации",
+        "label_aliases": "[]",
+        "type": "file",
+        "is_auto": false,
+        "sorting": 70
+    }
+},
+{
+    "model": "d11.docfield",
+    "pk": 56,
+    "fields": {
+        "name": "status_color",
+        "label": "Статус",
+        "label_aliases": "[]",
+        "type": "str",
+        "is_auto": false,
+        "sorting": 100
+    }
+},
+{
+    "model": "d11.docfield",
+    "pk": 57,
+    "fields": {
+        "name": "status_text",
+        "label": "Статус - текст",
+        "label_aliases": "[]",
+        "type": "str",
+        "is_auto": false,
+        "sorting": 50
+    }
+},
+{
+    "model": "d11.docfield",
+    "pk": 58,
+    "fields": {
+        "name": null,
+        "label": "Причина создания редакции №8",
+        "label_aliases": null,
+        "type": "str",
+        "is_auto": true,
+        "sorting": 10007
+    }
+},
+{
+    "model": "d11.docfield",
+    "pk": 59,
+    "fields": {
+        "name": null,
+        "label": "Причина создания редакции №9",
+        "label_aliases": null,
+        "type": "str",
+        "is_auto": true,
+        "sorting": 0
+    }
+},
+{
+    "model": "d11.docfield",
+    "pk": 62,
+    "fields": {
+        "name": "kind_aleph",
+        "label": "Тип диссертации (Алеф)",
+        "label_aliases": "[]",
+        "type": "str",
+        "is_auto": false,
+        "sorting": 100
+    }
+},
+{
+    "model": "d11.docfield",
+    "pk": 63,
+    "fields": {
+        "name": "industry_aleph",
+        "label": "Отрасль науки (Алеф)",
+        "label_aliases": "[]",
+        "type": "str",
+        "is_auto": false,
+        "sorting": 100
+    }
+}
+]
